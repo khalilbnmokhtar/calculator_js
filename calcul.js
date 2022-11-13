@@ -73,7 +73,6 @@ btn_egale.onclick = function () {
 else
 {result1.innerHTML += result2.innerHTML}
 }
-
 btn_div.onclick = function () {
     let last_car = result1.innerText[result1.innerText.length -1]
     if (result1.innerHTML=='')
