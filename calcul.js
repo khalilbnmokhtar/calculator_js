@@ -71,7 +71,7 @@ btn_egale.onclick = function () {
     result2.classList.remove('fs-4')
     result2.classList.add('fs-2')
 }
-
+else
 {result1.innerHTML += result2.innerHTML}
 }
 btn_div.onclick = function () {
