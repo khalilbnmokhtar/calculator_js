@@ -35,6 +35,7 @@ btn_aco2.onclick =function(){
     {result2.innerHTML = 'ereur formule'}
  
 }
+
 btn_aco1.onclick =function(){
     let last_car = result1.innerText[result1.innerText.length -1]    
     if(last_car != ')' && isNaN(last_car) == true || result1.innerHTML =='')
@@ -70,7 +71,7 @@ btn_egale.onclick = function () {
     result2.classList.remove('fs-4')
     result2.classList.add('fs-2')
 }
-else
+
 {result1.innerHTML += result2.innerHTML}
 }
 
