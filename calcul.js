@@ -21,6 +21,7 @@ let btn_aco1 = document.getElementById('btn-(')
 let btn_aco2 = document.getElementById('btn-)')
 result1.innerHTML =''
 result2.innerHTML=''
+
 btn_aco2.onclick =function(){
     let last_car = result1.innerText[result1.innerText.length -1] 
     
